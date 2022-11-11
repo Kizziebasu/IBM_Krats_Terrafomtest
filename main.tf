@@ -13,6 +13,6 @@ resource "aws_instance" "myawsserver-krats-var" {
   tags = {
     Name = "krats-aws-ec2-instance-v2"
     Env = "test"
-    Owner = "kratika"
+    Owner = "kratika-mishra"
   }
 }
